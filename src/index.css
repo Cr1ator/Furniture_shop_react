@@ -99,7 +99,12 @@ header .shop-cart .item img p {
     font-weight: 600;
 }
 
-header .shop-cart .item
+header .shop-cart .item .delete-icon{
+    color: #ca5252;
+    float: right;
+    position: relative;
+    top: -25px;
+}
 
 /* END item cart */
 
