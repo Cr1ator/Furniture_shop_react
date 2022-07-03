@@ -38,6 +38,17 @@ header ul.nav li:hover {
     opacity: 0.5;
 }
 
+header .shop-cart-button {
+    float: right;
+    cursor: pointer;
+    transition: color 500ms ease;
+}
+
+header .shop-cart-button:hover,
+header .shop-cart-button.active {
+    color: #dc3d3d;
+}
+
 header .presentation {
     margin: 50px 0;
     background: url('./img/fon.jpg') no-repeat;
@@ -72,7 +83,64 @@ header .presentation::before {
     color: rgb(228, 228, 228);
 }
 
+main {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+main .item {
+    width: 30%;
+    margin-bottom: 50px;
+    background: #f5f5f5;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+main .item img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    transition: transform 500ms ease;
+}
+
+main .item img:hover {
+    transform: scale(1.05);
+}
+
+main h2, 
+main p, 
+main b {
+    margin: 10px 20px;
+    color: #333;
+}
+
+main b {
+    color: #5fa36a;
+}
+
+main .add-to-cart {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    background: rgb(209, 14, 76);
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    color: #fff;
+    border-radius: 25%;
+    cursor: pointer;
+    transition: transform 500ms ease;
+}
+
+main .add-to-cart:hover {
+    transform: scale(1.4) translateY(-3px);
+}
+
 footer {
     text-align: center;
     margin-top: 100px;
 }
+

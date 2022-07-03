@@ -10,8 +10,8 @@ class App extends React.Component {
       items: [
         {
           id: 1, 
-          title: 'Стул серый', 
-          img: 'chair-grey, jpeg', 
+          title: 'Стул синий', 
+          img: 'chair.jpg', 
           desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing.', 
           category: 'chairs',
           price: '49.99'
@@ -19,7 +19,7 @@ class App extends React.Component {
         {
           id: 2, 
           title: 'Стол', 
-          img: 'table.webp', 
+          img: 'table.jpg', 
           desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing.', 
           category: 'tables', 
           price: '149.00'
@@ -27,31 +27,31 @@ class App extends React.Component {
         {
           id: 3, 
           title: 'Диван', 
-          img: 'sofa.jpeg',
+          img: 'sofa.jpg',
           desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing.', 
           category: 'sofa', 
           price: '549.99'
         },
         {
           id: 4, 
-          title: 'Стул серый', 
-          img: 'chair-grey, jpeg', 
+          title: 'Стул синий', 
+          img: 'chair.jpg',  
           desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing.', 
           category: 'chairs',
           price: '49.99'
         },
         {
-          id: 2, 
+          id: 5, 
           title: 'Стол', 
-          img: 'table.webp', 
+          img: 'table.jpg', 
           desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing.', 
           category: 'tables', 
           price: '149.00'
         },
         {
-          id: 3, 
+          id: 6, 
           title: 'Диван', 
-          img: 'sofa.jpeg',
+          img: 'sofa.jpg',
           desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing.', 
           category: 'sofa', 
           price: '549.99'
