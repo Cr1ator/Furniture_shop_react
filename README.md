@@ -1,8 +1,6 @@
 
 # Furniture shop
 
-A brief description of what this project does and who it's for
-
 
 ![App Screenshot](https://i.imgur.com/eFXFvme.png)
 
